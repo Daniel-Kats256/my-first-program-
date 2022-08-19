@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+}
+body {
+    background-image: linear-gradient(-45deg, rgba(66, 227, 255, 0.589), white);
+}
+/*DAN HOME*/
+nav {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+nav a {
+    color: blue;
+    font-weight: bold;
+    font-size: 5;
+    margin: 5px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+}
+i {
+    margin: 10px;
+    font-size: 40px;
+}
+
+nav > i:nth-child(6) {
+    margin-left: auto;
+}
+.one {
+    width: 100%;
+    height: 100vh;
+    border-radius: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one h1 {
+    color: #fff;
+    font-size: 250%;
+    font-weight: bolder;
+    mix-blend-mode: screen;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.one video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.one > div:hover {
+    border: 3px solid blue;
+    color: black;
+}
+.name {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+}
+.name > img {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 100%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.main div {
+    width: 30%;
+    height: 90%;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.main div:hover {
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+.main div:nth-child(1) {
+    background-image: url("three.jpg");
+    background-size: cover;
+}
+
+.main div:nth-child(2) {
+    background-image: url("four.jpg");
+    background-size: cover;
+}
+.main div:nth-child(3) {
+    background-image: url("two.jpg");
+    background-size: cover;
+}
+.main div > p {
+    text-align: center;
+    color: violet;
+    font-size: 200%;
+    font-weight: bolder;
+    font-family: serif;
+}
+.main div > p:hover {
+    color: white;
+}
+footer {
+    background: url(./pyr.png) repeat;
+    background-size: cover;
+    background-position: center;
+    color: tomato;
+    height: 50vh;
+    border-radius: 10px;
+
+    margin: 10px;
+    justify-content: center;
+}
+
+footer p,
+h1,
+h2 {
+    font-size: 200%;
+    margin-top: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+footer p:hover {
+    color: blue;
+}
+/*SERVICES DAN*/
+.one1 {
+    display: flex;
+    width: 100%;
+    height: 150vh;
+}
+.one1 > div:nth-child(1) {
+    width: 50%;
+}
+.one1 > div:nth-child(1):hover {
+    border: 2px solid #3fa;
+    color: black;
+}
+.one1 > div:nth-child(1) > div:nth-child(1) {
+    background: url(./pic2.jpg) no-repeat scroll;
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one1 > div:nth-child(1) > div:nth-child(2) {
+    background: url(./seven.jpg) no-repeat scroll;
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one1 > div:nth-child(2) {
+    width: 50%;
+}
+.one1 > div:nth-child(2):hover {
+    border: 2px solid #3fa;
+    color: black;
+}
+.one1 > div:nth-child(2) > div:nth-child(1) {
+    height: 33.33%;
+    background: url(./6six.jpg) no-repeat scroll;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one1 > div:nth-child(2) > div:nth-child(2) {
+    height: 33.33%;
+    background: url(./pic3.jpg) no-repeat scroll;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one1 > div:nth-child(2) > div:nth-child(3) {
+    height: 33.33%;
+    background: url(./pic1.jpg) no-repeat scroll;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one1 div p {
+    color: #fff;
+    font-size: 150%;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+.one1 div p:hover {
+    color: blue;
+}
+/*danCONTACT US*/
+.dan {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+}
+.dan > div:nth-child(1) {
+    width: 40%;
+    background-image: url("five.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dan > div:nth-child(1) form {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.dan > div:nth-child(1) form input {
+    border: none;
+    padding: 7px;
+    margin-left: 5px;
+    outline: none;
+}
+.dan > div:nth-child(1) button {
+    color: lightblue;
+    font-weight: bold;
+    background-color: tomato;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 7px;
+}
+.dan > div:nth-child(1) h2 {
+    color: blue;
+    font-weight: bold;
+}
+.dan > div:nth-child(1) p {
+    color: rgb(1, 1, 90);
+    font-weight: bold;
+    word-spacing: 5px;
+    font-size: 20px;
+}
+.dan > div:nth-child(2) {
+    width: 60%;
+}
+.dan > div:nth-child(2) div {
+    height: 50%;
+}
+.dan > div:nth-child(2) div video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/*DANS'GALLERY*/
+.slides {
+    display: grid;
+    grid-auto-flow: column;
+    gap: inherit;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+.slides > img {
+    scroll-snap-align: start;
+}
+.slides img {
+    border-radius: 20px;
+    width: 250px;
+    object-fit: cover;
+    height: 100%;
+    margin: 5px;
+}
+.slides::-webkit-scrollbar {
+    display: ;
+}
+.oned {
+    display: flex;
+    padding: 20px;
+    height: 100vh;
+}
+.oned div {
+    width: 33.33%;
+    display: flex;
+    border-radius: 10px;
+    margin: 20px;
+    justify-content: center;
+}
+
+.oned div video {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.oned div h1 {
+    font-size: 100px;
+    color: #fff;
+    background-color: #000;
+    mix-blend-mode: screen;
+}
